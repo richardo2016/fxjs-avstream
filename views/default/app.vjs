@@ -1,0 +1,7 @@
+;new Vue({
+	el: '#app',
+	components: {
+		Todo: () => System.import('./video.vue')
+	},
+	template: "<Todo />"
+})

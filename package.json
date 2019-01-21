@@ -1,0 +1,22 @@
+{
+  "name": "avstream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fibjs ./server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fibjs/detect-port": "^1.0.2",
+    "@fxjs/handbag": "^0.2.6",
+    "rollup-plugin-babel-standalone": "^2.7.2",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-vue": "^4.6.1",
+    "tslib": "^1.9.3",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
